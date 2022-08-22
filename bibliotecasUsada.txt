@@ -1,0 +1,5 @@
+bibliotecas instaladas:
+
+browserify
+axios
+prompt
