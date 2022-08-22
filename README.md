@@ -1,6 +1,6 @@
 # ProjetoMeuChar
 
-PICTURES
+<div align="center">PICTURES</div>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/44277503/185975074-f441ca1a-3f95-48db-bf16-e5bea8a0b199.png" width="900px" />
 </div>
