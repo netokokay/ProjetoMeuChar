@@ -8,9 +8,9 @@ async function start(value) {
         const resposta = await axios.get(url);
         const nick = resposta.data.characters.character.name;
         const level = resposta.data.characters.character.level;
-        console.log(`Nome do Char: ${nick}`)
-        console.log(`Level: ${level}`)
-        console.log(resposta.data)
+        //console.log(`Nome do Char: ${nick}`)
+        //console.log(`Level: ${level}`)
+        //console.log(resposta.data)
         document.getElementById("nickName").value = resposta.data.characters.character.name;
         document.getElementById("levelInput").value = level;
         document.getElementById("vocInput").value = resposta.data.characters.character.vocation;
@@ -41,7 +41,7 @@ btn.addEventListener("click",function(e){
 
     const value = name.value;
 
-    console.log(`O nome digitado foi: ${value}`)
+    //console.log(`O nome digitado foi: ${value}`)
 
     start(value);
 })
